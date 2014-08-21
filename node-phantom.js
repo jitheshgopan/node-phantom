@@ -206,6 +206,9 @@ module.exports={
 						on: function(){
 							phantom.on.apply(phantom, arguments);
 						},
+						removeListener: function(){
+							phantom.removeListener.apply(phantom, arguments);
+						},
 						_phantom: phantom
 					};
 				
